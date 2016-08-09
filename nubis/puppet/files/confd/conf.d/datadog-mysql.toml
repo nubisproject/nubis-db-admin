@@ -1,0 +1,10 @@
+[template]
+src = "datadog-mysql.tmpl"
+dest = "/etc/dd-agent/conf.d/mysql.yaml"
+prefix = "/%%STACK%%/%%ENVIRONMENT%%"
+
+keys = [
+    "/config"
+]
+
+reload_cmd = "/sbin/service datadog-agent reload"
