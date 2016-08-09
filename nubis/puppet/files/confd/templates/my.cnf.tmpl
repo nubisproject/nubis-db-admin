@@ -1,0 +1,4 @@
+[client]
+host = {{ getv "/config/DBserver" }}
+user = {{ getv "/config/DBuser" }}
+password = {{ if exists "/config/DBpassword" }}{{ getv "/config/DBpassword" }}{{ else }}provisioner_password{{ end }}

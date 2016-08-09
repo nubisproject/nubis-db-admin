@@ -1,0 +1,12 @@
+[template]
+src = "my.cnf.tmpl"
+dest = "/root/.my.cnf"
+prefix = "/%%STACK%%/%%ENVIRONMENT%%"
+
+uid = 0
+gid = 0
+mode = "0640"
+
+keys = [
+    "/config"
+]

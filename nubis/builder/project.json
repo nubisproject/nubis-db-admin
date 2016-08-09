@@ -1,0 +1,10 @@
+{
+  "variables": {
+    "builders": [
+      "amazon-ebs-amazon-linux"
+    ],
+    "project_description": "RDS Admin",
+    "project_name": "nubis-rds-admin",
+    "project_version": "v1.3.0-dev"
+  }
+}
