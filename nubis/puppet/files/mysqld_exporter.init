@@ -1,0 +1,100 @@
+#!/bin/bash
+#
+#       /etc/rc.d/init.d/mysqld_exporter
+#
+# chkconfig:   2345 95 95
+# description: .
+# processname: /usr/local/bin/mysqld_exporter
+# pidfile: /var/run/mysqld_exporter/pidfile
+
+# Source function library.
+# shellcheck disable=SC1091
+. /etc/init.d/functions
+
+PID_FILE=/var/run/mysqld_exporter/pidfile
+
+#
+# Create the /var/run/mysqld_exporter directory, which can live on a tmpfs
+# filesystem and be destroyed between reboots.
+#
+mkrundir() {
+        [ ! -d /var/run/mysqld_exporter ] && mkdir -p /var/run/mysqld_exporter
+}
+
+#
+# Create a PID file if it doesn't already exist, for clean upgrades
+# from previous init-script controlled daemons.
+#
+COMMAND_NAME=/usr/local/bin/mysqld_exporter
+KILLPROC_OPT=(-p "${PID_FILE}")
+mkpidfile() {
+        # Create PID file if it didn't exist
+        mkrundir
+        [ ! -f "$PID_FILE" ] && pidofproc "$COMMAND_NAME" > "$PID_FILE"
+        # shellcheck disable=SC2181
+        if [ $? -ne 0 ] ; then
+            rm "$PID_FILE"
+            KILLPROC_OPT=()
+        fi
+}
+
+start() {
+        echo -n "Starting mysqld_exporter: "
+        mkrundir
+        [ -f "$PID_FILE" ] && rm "$PID_FILE"
+        daemon  \
+            --pidfile="$PID_FILE" \
+            /usr/sbin/daemonize -p $PID_FILE -- /usr/local/bin/mysqld_exporter \
+	          -collect.auto_increment.columns \
+		  -collect.binlog_size \
+		  -collect.engine_innodb_status \
+		  -collect.info_schema.innodb_metrics \
+		  -collect.perf_schema.eventsstatements \
+		  -collect.perf_schema.eventswaits \
+		  -collect.perf_schema.file_events \
+		  -collect.perf_schema.indexiowaits \
+		  -collect.perf_schema.tableiowaits \
+		  -collect.perf_schema.tablelocks &
+        retcode=$?
+        touch /var/lock/subsys/mysqld_exporter
+        return "$retcode"
+}
+
+stop() {
+        echo -n "Stopping mysqld_exporter: "
+        mkpidfile
+        killproc "${KILLPROC_OPT[@]}" "$COMMAND_NAME" -9
+
+        retcode=$?
+        rm -f /var/lock/subsys/mysqld_exporter "$PID_FILE"
+        return "$retcode"
+}
+
+case "$1" in
+    start)
+        start
+        ;;
+    stop)
+        stop
+        ;;
+    status)
+        status -p "$PID_FILE" "$COMMAND_NAME"
+        ;;
+    restart)
+        stop
+        start
+        ;;
+    reload)
+        mkpidfile
+        killproc "${KILLPROC_OPT[@]}" "$COMMAND_NAME" -HUP
+        ;;
+    condrestart)
+        #shellcheck disable=SC2015
+        [ -f /var/lock/subsys/mysqld_exporter ] && restart || :
+        ;;
+    *)
+        echo "Usage: mysqld_exporter {start|stop|status|reload|restart}"
+        exit 1
+        ;;
+esac
+exit $?

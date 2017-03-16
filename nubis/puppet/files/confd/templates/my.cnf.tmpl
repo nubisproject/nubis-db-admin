@@ -1,4 +1,4 @@
 [client]
-host = {{ getv "/config/DBserver" }}
-user = {{ getv "/config/DBuser" }}
-password = {{ if exists "/config/DBpassword" }}{{ getv "/config/DBpassword" }}{{ else }}provisioner_password{{ end }}
+host = {{ getv "/config/Database/Server" }}
+user = {{ getv "/config/Database/User" }}
+password = {{ if exists "/config/Database/Password" }}{{ getv "/config/Database/Password" }}{{ else }}provisioner_password{{ end }}
