@@ -8,6 +8,7 @@
 # pidfile: /var/run/mysqld_exporter/pidfile
 
 # Source function library.
+# shellcheck disable=SC1091
 . /etc/init.d/functions
 
 PID_FILE=/var/run/mysqld_exporter/pidfile
@@ -30,6 +31,7 @@ mkpidfile() {
         # Create PID file if it didn't exist
         mkrundir
         [ ! -f "$PID_FILE" ] && pidofproc "$COMMAND_NAME" > "$PID_FILE"
+        # shellcheck disable=SC2181
         if [ $? -ne 0 ] ; then
             rm "$PID_FILE"
             KILLPROC_OPT=()
@@ -37,7 +39,7 @@ mkpidfile() {
 }
 
 start() {
-        echo -n "Starting "mysqld_exporter": "
+        echo -n "Starting mysqld_exporter: "
         mkrundir
         [ -f "$PID_FILE" ] && rm "$PID_FILE"
         daemon  \
@@ -59,7 +61,7 @@ start() {
 }
 
 stop() {
-        echo -n "Stopping "mysqld_exporter": "
+        echo -n "Stopping mysqld_exporter: "
         mkpidfile
         killproc "${KILLPROC_OPT[@]}" "$COMMAND_NAME" -9
 
@@ -87,10 +89,11 @@ case "$1" in
         killproc "${KILLPROC_OPT[@]}" "$COMMAND_NAME" -HUP
         ;;
     condrestart)
+        #shellcheck disable=SC2015
         [ -f /var/lock/subsys/mysqld_exporter ] && restart || :
         ;;
     *)
-        echo "Usage: "mysqld_exporter" {start|stop|status|reload|restart}"
+        echo "Usage: mysqld_exporter {start|stop|status|reload|restart}"
         exit 1
         ;;
 esac
