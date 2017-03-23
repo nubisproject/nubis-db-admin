@@ -1,0 +1,11 @@
+{
+  "service": {
+    "check": {
+      "id": "db-admin",
+      "name": "Database Admin",
+      "script": "/bin/true",
+      "interval": "1h"
+    },
+    "name": "db-admin"
+  }
+}

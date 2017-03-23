@@ -1,8 +1,25 @@
 # Change Log
 
-## [v1.3.0](https://github.com/nubisproject/nubis-db-admin/tree/v1.3.0) (2016-12-20)
+## [v1.4.0](https://github.com/nubisproject/nubis-db-admin/tree/v1.4.0) (2017-03-23)
+[Full Changelog](https://github.com/nubisproject/nubis-db-admin/compare/v1.3.0...v1.4.0)
+
+**Closed issues:**
+
+- Convert to Prometheus MySQL exporter [\#8](https://github.com/nubisproject/nubis-db-admin/issues/8)
+
 **Merged pull requests:**
 
+- Convert to Prometheus and MySQL Exporter [\#9](https://github.com/nubisproject/nubis-db-admin/pull/9) ([gozer](https://github.com/gozer))
+- Update builder artifacts for v1.4.0 release \[skip ci\] [\#7](https://github.com/nubisproject/nubis-db-admin/pull/7) ([tinnightcap](https://github.com/tinnightcap))
+
+## [v1.3.0](https://github.com/nubisproject/nubis-db-admin/tree/v1.3.0) (2016-12-21)
+**Closed issues:**
+
+- Tag v1.3.0 release [\#4](https://github.com/nubisproject/nubis-db-admin/issues/4)
+
+**Merged pull requests:**
+
+- Update CHANGELOG for v1.3.0 release [\#5](https://github.com/nubisproject/nubis-db-admin/pull/5) ([tinnightcap](https://github.com/tinnightcap))
 - update nubis-travis to v0.1.3 [\#3](https://github.com/nubisproject/nubis-db-admin/pull/3) ([gozer](https://github.com/gozer))
 - Enable nubis-travis v0.1.0 [\#2](https://github.com/nubisproject/nubis-db-admin/pull/2) ([gozer](https://github.com/gozer))
 - Initial implementation of a datadog-assisted RDS monitoring host [\#1](https://github.com/nubisproject/nubis-db-admin/pull/1) ([gozer](https://github.com/gozer))
