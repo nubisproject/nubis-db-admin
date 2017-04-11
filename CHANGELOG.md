@@ -1,14 +1,24 @@
 # Change Log
 
+## [v1.4.1](https://github.com/nubisproject/nubis-db-admin/tree/v1.4.1) (2017-04-11)
+[Full Changelog](https://github.com/nubisproject/nubis-db-admin/compare/v1.4.0...v1.4.1)
+
+**Merged pull requests:**
+
+- Update CHANGELOG for v1.4.1 release \[skip ci\] [\#13](https://github.com/nubisproject/nubis-db-admin/pull/13) ([tinnightcap](https://github.com/tinnightcap))
+
 ## [v1.4.0](https://github.com/nubisproject/nubis-db-admin/tree/v1.4.0) (2017-03-23)
 [Full Changelog](https://github.com/nubisproject/nubis-db-admin/compare/v1.3.0...v1.4.0)
 
 **Closed issues:**
 
 - Convert to Prometheus MySQL exporter [\#8](https://github.com/nubisproject/nubis-db-admin/issues/8)
+- Tag v1.4.0 release [\#6](https://github.com/nubisproject/nubis-db-admin/issues/6)
 
 **Merged pull requests:**
 
+- Merge v1.4.0 release into develop. \[skip ci\] [\#11](https://github.com/nubisproject/nubis-db-admin/pull/11) ([tinnightcap](https://github.com/tinnightcap))
+- Update CHANGELOG for v1.4.0 release \[skip ci\] [\#10](https://github.com/nubisproject/nubis-db-admin/pull/10) ([tinnightcap](https://github.com/tinnightcap))
 - Convert to Prometheus and MySQL Exporter [\#9](https://github.com/nubisproject/nubis-db-admin/pull/9) ([gozer](https://github.com/gozer))
 - Update builder artifacts for v1.4.0 release \[skip ci\] [\#7](https://github.com/nubisproject/nubis-db-admin/pull/7) ([tinnightcap](https://github.com/tinnightcap))
 
