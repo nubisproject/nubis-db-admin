@@ -1,5 +1,12 @@
 # Change Log
 
+## [v1.4.1](https://github.com/nubisproject/nubis-db-admin/tree/v1.4.1) (2017-04-11)
+[Full Changelog](https://github.com/nubisproject/nubis-db-admin/compare/v1.4.0...v1.4.1)
+
+**Merged pull requests:**
+
+- Update CHANGELOG for v1.4.1 release \[skip ci\] [\#13](https://github.com/nubisproject/nubis-db-admin/pull/13) ([tinnightcap](https://github.com/tinnightcap))
+
 ## [v1.4.0](https://github.com/nubisproject/nubis-db-admin/tree/v1.4.0) (2017-03-23)
 [Full Changelog](https://github.com/nubisproject/nubis-db-admin/compare/v1.3.0...v1.4.0)
 
