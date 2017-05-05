@@ -1,10 +1,34 @@
 # Change Log
 
-## [v1.4.1](https://github.com/nubisproject/nubis-db-admin/tree/v1.4.1) (2017-04-11)
-[Full Changelog](https://github.com/nubisproject/nubis-db-admin/compare/v1.4.0...v1.4.1)
+## [v1.4.2](https://github.com/nubisproject/nubis-db-admin/tree/v1.4.2) (2017-05-05)
+[Full Changelog](https://github.com/nubisproject/nubis-db-admin/compare/v1.4.2...v1.4.2)
 
 **Merged pull requests:**
 
+- Add nubis/builder/artifacts/AMIs.json to .gitignore [\#19](https://github.com/nubisproject/nubis-db-admin/pull/19) ([tinnightcap](https://github.com/tinnightcap))
+
+## [v1.4.2](https://github.com/nubisproject/nubis-db-admin/tree/v1.4.2) (2017-05-03)
+[Full Changelog](https://github.com/nubisproject/nubis-db-admin/compare/v1.4.1...v1.4.2)
+
+**Closed issues:**
+
+- Tag v1.4.2 release [\#16](https://github.com/nubisproject/nubis-db-admin/issues/16)
+
+**Merged pull requests:**
+
+- Update CHANGELOG for v1.4.2 release \[skip ci\] [\#17](https://github.com/nubisproject/nubis-db-admin/pull/17) ([tinnightcap](https://github.com/tinnightcap))
+
+## [v1.4.1](https://github.com/nubisproject/nubis-db-admin/tree/v1.4.1) (2017-04-11)
+[Full Changelog](https://github.com/nubisproject/nubis-db-admin/compare/v1.4.0...v1.4.1)
+
+**Closed issues:**
+
+- Tag v1.4.1 release [\#12](https://github.com/nubisproject/nubis-db-admin/issues/12)
+
+**Merged pull requests:**
+
+- Merge v1.4.1 release into develop. \[skip ci\] [\#15](https://github.com/nubisproject/nubis-db-admin/pull/15) ([tinnightcap](https://github.com/tinnightcap))
+- Update CHANGELOG for v1.4.1 release \[skip ci\] [\#14](https://github.com/nubisproject/nubis-db-admin/pull/14) ([tinnightcap](https://github.com/tinnightcap))
 - Update CHANGELOG for v1.4.1 release \[skip ci\] [\#13](https://github.com/nubisproject/nubis-db-admin/pull/13) ([tinnightcap](https://github.com/tinnightcap))
 
 ## [v1.4.0](https://github.com/nubisproject/nubis-db-admin/tree/v1.4.0) (2017-03-23)
