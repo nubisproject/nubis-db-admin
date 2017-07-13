@@ -6,6 +6,7 @@
       "script": "/bin/true",
       "interval": "1h"
     },
+    "tags" : ["%%PROJECT%%"],
     "name": "db-admin"
   }
 }
