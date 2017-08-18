@@ -1,5 +1,28 @@
 # Change Log
 
+## [v1.5.1](https://github.com/nubisproject/nubis-db-admin/tree/v1.5.1) (2017-08-18)
+[Full Changelog](https://github.com/nubisproject/nubis-db-admin/compare/v1.5.0...v1.5.1)
+
+**Closed issues:**
+
+- Tag instances with the project they are for [\#26](https://github.com/nubisproject/nubis-db-admin/issues/26)
+
+**Merged pull requests:**
+
+- Add NUBIS\_PROJECT tag [\#27](https://github.com/nubisproject/nubis-db-admin/pull/27) ([gozer](https://github.com/gozer))
+
+## [v1.5.0](https://github.com/nubisproject/nubis-db-admin/tree/v1.5.0) (2017-06-24)
+[Full Changelog](https://github.com/nubisproject/nubis-db-admin/compare/v1.4.2...v1.5.0)
+
+**Closed issues:**
+
+- Tag v1.5.0 release [\#23](https://github.com/nubisproject/nubis-db-admin/issues/23)
+
+**Merged pull requests:**
+
+- Merge v1.5.0 release into develop. \[skip ci\] [\#25](https://github.com/nubisproject/nubis-db-admin/pull/25) ([tinnightcap](https://github.com/tinnightcap))
+- Update CHANGELOG for v1.5.0 release \[skip ci\] [\#24](https://github.com/nubisproject/nubis-db-admin/pull/24) ([tinnightcap](https://github.com/tinnightcap))
+
 ## [v1.4.2](https://github.com/nubisproject/nubis-db-admin/tree/v1.4.2) (2017-05-05)
 [Full Changelog](https://github.com/nubisproject/nubis-db-admin/compare/v1.4.1...v1.4.2)
 
