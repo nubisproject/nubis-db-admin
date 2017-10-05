@@ -1,14 +1,27 @@
 # Change Log
 
+## [v2.0.0](https://github.com/nubisproject/nubis-db-admin/tree/v2.0.0) (2017-10-05)
+[Full Changelog](https://github.com/nubisproject/nubis-db-admin/compare/v1.5.1...v2.0.0)
+
+**Merged pull requests:**
+
+- Arena Support [\#34](https://github.com/nubisproject/nubis-db-admin/pull/34) ([gozer](https://github.com/gozer))
+- Update to nubis-travis v1.4.2 [\#33](https://github.com/nubisproject/nubis-db-admin/pull/33) ([tinnightcap](https://github.com/tinnightcap))
+- Update nubis-travis to v1.4.0 [\#32](https://github.com/nubisproject/nubis-db-admin/pull/32) ([tinnightcap](https://github.com/tinnightcap))
+- Migrate to moilla slack [\#31](https://github.com/nubisproject/nubis-db-admin/pull/31) ([tinnightcap](https://github.com/tinnightcap))
+
 ## [v1.5.1](https://github.com/nubisproject/nubis-db-admin/tree/v1.5.1) (2017-08-18)
 [Full Changelog](https://github.com/nubisproject/nubis-db-admin/compare/v1.5.0...v1.5.1)
 
 **Closed issues:**
 
 - Tag instances with the project they are for [\#26](https://github.com/nubisproject/nubis-db-admin/issues/26)
+- Tag v1.5.1 release [\#28](https://github.com/nubisproject/nubis-db-admin/issues/28)
 
 **Merged pull requests:**
 
+- Merge v1.5.1 release into develop. \[skip ci\] [\#30](https://github.com/nubisproject/nubis-db-admin/pull/30) ([tinnightcap](https://github.com/tinnightcap))
+- Update CHANGELOG for v1.5.1 release \[skip ci\] [\#29](https://github.com/nubisproject/nubis-db-admin/pull/29) ([tinnightcap](https://github.com/tinnightcap))
 - Add NUBIS\_PROJECT tag [\#27](https://github.com/nubisproject/nubis-db-admin/pull/27) ([gozer](https://github.com/gozer))
 
 ## [v1.5.0](https://github.com/nubisproject/nubis-db-admin/tree/v1.5.0) (2017-06-24)
