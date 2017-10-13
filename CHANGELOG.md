@@ -3,8 +3,14 @@
 ## [v2.0.0](https://github.com/nubisproject/nubis-db-admin/tree/v2.0.0) (2017-10-05)
 [Full Changelog](https://github.com/nubisproject/nubis-db-admin/compare/v1.5.1...v2.0.0)
 
+**Closed issues:**
+
+- Tag v2.0.0 release [\#35](https://github.com/nubisproject/nubis-db-admin/issues/35)
+
 **Merged pull requests:**
 
+- Merge v2.0.0 release into develop. \[skip ci\] [\#37](https://github.com/nubisproject/nubis-db-admin/pull/37) ([tinnightcap](https://github.com/tinnightcap))
+- Update CHANGELOG for v2.0.0 release \[skip ci\] [\#36](https://github.com/nubisproject/nubis-db-admin/pull/36) ([tinnightcap](https://github.com/tinnightcap))
 - Arena Support [\#34](https://github.com/nubisproject/nubis-db-admin/pull/34) ([gozer](https://github.com/gozer))
 - Update to nubis-travis v1.4.2 [\#33](https://github.com/nubisproject/nubis-db-admin/pull/33) ([tinnightcap](https://github.com/tinnightcap))
 - Update nubis-travis to v1.4.0 [\#32](https://github.com/nubisproject/nubis-db-admin/pull/32) ([tinnightcap](https://github.com/tinnightcap))
