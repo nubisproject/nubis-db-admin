@@ -5,6 +5,6 @@
     ],
     "project_description": "Nubis Database Admin",
     "project_name": "nubis-db-admin",
-    "project_version": "v2.0.3"
+    "project_version": "v2.1.0-dev"
   }
 }
