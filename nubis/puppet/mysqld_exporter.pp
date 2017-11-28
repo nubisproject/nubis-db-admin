@@ -10,10 +10,6 @@ staging::extract { "mysqld_exporter.${mysqld_exporter_version}.tar.gz":
   creates => '/usr/local/bin/mysqld_exporter',
 }
 
-file { '/etc/init.d/mysqld_exporter':
-  ensure => present,
-  mode   => '0755',
-  owner  => 'root',
-  group  => 'root',
-  source => 'puppet:///nubis/files/mysqld_exporter.init',
+systemd::unit_file { 'mysqld_exporter.service':
+  source => 'puppet:///nubis/files/mysqld_exporter.systemd',
 }

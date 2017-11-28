@@ -1,0 +1,23 @@
+[Unit]
+Description=MySQL Exporter
+Wants=basic.target
+After=basic.target network.target
+
+[Service]
+Restart=on-failure
+RestartSec=10s
+
+ExecStart=/usr/local/bin/mysqld_exporter \
+  -collect.auto_increment.columns \
+  -collect.binlog_size \
+  -collect.engine_innodb_status \
+  -collect.info_schema.innodb_metrics \
+  -collect.perf_schema.eventsstatements \
+  -collect.perf_schema.eventswaits \
+  -collect.perf_schema.file_events \
+  -collect.perf_schema.indexiowaits \
+  -collect.perf_schema.tableiowaits \
+  -collect.perf_schema.tablelocks
+
+[Install]
+WantedBy=multi-user.target
