@@ -8,6 +8,7 @@ Restart=on-failure
 RestartSec=10s
 
 ExecStart=/usr/local/bin/mysqld_exporter \
+  -config.my-cnf /root/.my.cnf \
   -collect.auto_increment.columns \
   -collect.binlog_size \
   -collect.engine_innodb_status \
