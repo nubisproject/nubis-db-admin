@@ -1,5 +1,30 @@
 # Change Log
 
+## [v2.0.4](https://github.com/nubisproject/nubis-db-admin/tree/v2.0.4) (2017-12-08)
+[Full Changelog](https://github.com/nubisproject/nubis-db-admin/compare/v2.0.3...v2.0.4)
+
+**Closed issues:**
+
+- mysqld\_exporter doesn't start up [\#48](https://github.com/nubisproject/nubis-db-admin/issues/48)
+- Tag v2.0.4 release [\#50](https://github.com/nubisproject/nubis-db-admin/issues/50)
+
+**Merged pull requests:**
+
+- Point to a my.cnf file for mysqld exporter [\#49](https://github.com/nubisproject/nubis-db-admin/pull/49) ([limed](https://github.com/limed))
+- \[Centennial\] [\#47](https://github.com/nubisproject/nubis-db-admin/pull/47) ([gozer](https://github.com/gozer))
+
+## [v2.0.3](https://github.com/nubisproject/nubis-db-admin/tree/v2.0.3) (2017-11-02)
+[Full Changelog](https://github.com/nubisproject/nubis-db-admin/compare/v2.0.2...v2.0.3)
+
+**Closed issues:**
+
+- Tag v2.0.3 release [\#44](https://github.com/nubisproject/nubis-db-admin/issues/44)
+
+**Merged pull requests:**
+
+- Merge v2.0.3 release into develop. \[skip ci\] [\#46](https://github.com/nubisproject/nubis-db-admin/pull/46) ([tinnightcap](https://github.com/tinnightcap))
+- Update CHANGELOG for v2.0.3 release \[skip ci\] [\#45](https://github.com/nubisproject/nubis-db-admin/pull/45) ([tinnightcap](https://github.com/tinnightcap))
+
 ## [v2.0.2](https://github.com/nubisproject/nubis-db-admin/tree/v2.0.2) (2017-10-24)
 [Full Changelog](https://github.com/nubisproject/nubis-db-admin/compare/v2.0.1...v2.0.2)
 
