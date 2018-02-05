@@ -11,4 +11,4 @@ keys = [
     "/config/Database"
 ]
 
-reload_cmd="/etc/init.d/mysqld_exporter restart"
+reload_cmd="/usr/bin/systemctl restart mysqld_exporter"

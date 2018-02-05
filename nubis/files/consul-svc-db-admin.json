@@ -4,9 +4,9 @@
       "id": "db-admin",
       "name": "Database Admin",
       "script": "/bin/true",
-      "interval": "1h"
+      "interval": "1m"
     },
-    "tags" : ["%%PROJECT%%","%%ENVIRONMENT%%"],
+    "tags" : ["%%PROJECT%%","%%ARENA%%","%%ENVIRONMENT%%"],
     "name": "db-admin"
   }
 }
