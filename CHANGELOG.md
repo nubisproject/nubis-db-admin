@@ -1,5 +1,17 @@
 # Change Log
 
+## [v2.1.0](https://github.com/nubisproject/nubis-db-admin/tree/v2.1.0) (2018-02-05)
+[Full Changelog](https://github.com/nubisproject/nubis-db-admin/compare/v2.0.4...v2.1.0)
+
+**Closed issues:**
+
+- Tag v2.1.0 release [\#51](https://github.com/nubisproject/nubis-db-admin/issues/51)
+
+**Merged pull requests:**
+
+- Update CHANGELOG for v2.1.0 release \[skip ci\] [\#53](https://github.com/nubisproject/nubis-db-admin/pull/53) ([nubis-automation](https://github.com/nubis-automation))
+- Update CHANGELOG for v2.1.0 release \[skip ci\] [\#52](https://github.com/nubisproject/nubis-db-admin/pull/52) ([nubis-automation](https://github.com/nubis-automation))
+
 ## [v2.0.4](https://github.com/nubisproject/nubis-db-admin/tree/v2.0.4) (2017-12-08)
 [Full Changelog](https://github.com/nubisproject/nubis-db-admin/compare/v2.0.3...v2.0.4)
 
