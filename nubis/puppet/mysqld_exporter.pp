@@ -3,8 +3,8 @@ $mysqld_exporter_url = "https://github.com/prometheus/mysqld_exporter/releases/d
 notice ("Grabbing mysqld_exporter ${mysqld_exporter_version}")
 staging::file { "mysqld_exporter.${mysqld_exporter_version}.tar.gz":
   source => $mysqld_exporter_url,
-}->
-staging::extract { "mysqld_exporter.${mysqld_exporter_version}.tar.gz":
+}
+  -> staging::extract { "mysqld_exporter.${mysqld_exporter_version}.tar.gz":
   strip   => 1,
   target  => '/usr/local/bin',
   creates => '/usr/local/bin/mysqld_exporter',
