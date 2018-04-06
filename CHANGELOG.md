@@ -1,14 +1,24 @@
 # Change Log
 
-## [v2.1.0](https://github.com/nubisproject/nubis-db-admin/tree/v2.1.0) (2018-02-05)
+## [v2.2.0](https://github.com/nubisproject/nubis-db-admin/tree/v2.2.0) (2018-04-06)
+[Full Changelog](https://github.com/nubisproject/nubis-db-admin/compare/v2.1.0...v2.2.0)
+
+**Merged pull requests:**
+
+- Update nubis-travis [\#57](https://github.com/nubisproject/nubis-db-admin/pull/57) ([tinnightcap](https://github.com/tinnightcap))
+
+## [v2.1.0](https://github.com/nubisproject/nubis-db-admin/tree/v2.1.0) (2018-02-07)
 [Full Changelog](https://github.com/nubisproject/nubis-db-admin/compare/v2.0.4...v2.1.0)
 
 **Closed issues:**
 
+- Tag v2.1.0 release [\#54](https://github.com/nubisproject/nubis-db-admin/issues/54)
 - Tag v2.1.0 release [\#51](https://github.com/nubisproject/nubis-db-admin/issues/51)
 
 **Merged pull requests:**
 
+- Update CHANGELOG for v2.1.0 release \[skip ci\] [\#56](https://github.com/nubisproject/nubis-db-admin/pull/56) ([nubis-automation](https://github.com/nubis-automation))
+- Update CHANGELOG for v2.1.0 release \[skip ci\] [\#55](https://github.com/nubisproject/nubis-db-admin/pull/55) ([nubis-automation](https://github.com/nubis-automation))
 - Update CHANGELOG for v2.1.0 release \[skip ci\] [\#53](https://github.com/nubisproject/nubis-db-admin/pull/53) ([nubis-automation](https://github.com/nubis-automation))
 - Update CHANGELOG for v2.1.0 release \[skip ci\] [\#52](https://github.com/nubisproject/nubis-db-admin/pull/52) ([nubis-automation](https://github.com/nubis-automation))
 
