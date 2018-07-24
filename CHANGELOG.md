@@ -1,17 +1,20 @@
 # Change Log
 
-## [v2.3.0](https://github.com/nubisproject/nubis-db-admin/tree/v2.3.0) (2018-07-20)
+## [v2.3.0](https://github.com/nubisproject/nubis-db-admin/tree/v2.3.0) (2018-07-24)
 [Full Changelog](https://github.com/nubisproject/nubis-db-admin/compare/v2.2.0...v2.3.0)
 
 **Closed issues:**
 
 - Add PostgreSQL support [\#62](https://github.com/nubisproject/nubis-db-admin/issues/62)
 - Tag v2.2.0 release [\#58](https://github.com/nubisproject/nubis-db-admin/issues/58)
+- Tag v2.3.0 release [\#70](https://github.com/nubisproject/nubis-db-admin/issues/70)
 - Tag v2.3.0 release [\#67](https://github.com/nubisproject/nubis-db-admin/issues/67)
 - Tag v2.3.0 release [\#64](https://github.com/nubisproject/nubis-db-admin/issues/64)
 
 **Merged pull requests:**
 
+- Update CHANGELOG for v2.3.0 release \[skip ci\] [\#72](https://github.com/nubisproject/nubis-db-admin/pull/72) ([nubis-automation](https://github.com/nubis-automation))
+- Update CHANGELOG for v2.3.0 release \[skip ci\] [\#71](https://github.com/nubisproject/nubis-db-admin/pull/71) ([nubis-automation](https://github.com/nubis-automation))
 - Update CHANGELOG for v2.3.0 release \[skip ci\] [\#69](https://github.com/nubisproject/nubis-db-admin/pull/69) ([nubis-automation](https://github.com/nubis-automation))
 - Update CHANGELOG for v2.3.0 release \[skip ci\] [\#68](https://github.com/nubisproject/nubis-db-admin/pull/68) ([nubis-automation](https://github.com/nubis-automation))
 - Update CHANGELOG for v2.3.0 release \[skip ci\] [\#66](https://github.com/nubisproject/nubis-db-admin/pull/66) ([nubis-automation](https://github.com/nubis-automation))
