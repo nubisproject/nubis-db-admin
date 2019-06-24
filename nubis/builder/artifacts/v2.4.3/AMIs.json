@@ -1,0 +1,13 @@
+{
+  "builds": [
+    {
+      "name": "amazon-ebs-centos",
+      "builder_type": "amazon-ebs",
+      "build_time": 1561396090,
+      "files": null,
+      "artifact_id": "ap-northeast-1:ami-03ac174356987c13a,ap-northeast-2:ami-0d706feb45b7a56df,ap-southeast-1:ami-0d086ce19fbbad8b4,ap-southeast-2:ami-07f4292c2dc0b6f9c,eu-central-1:ami-0a006984657029490,eu-west-1:ami-0dc637c3c7f3edfa8,sa-east-1:ami-02c00866b316e41fa,us-east-1:ami-02142af5be9c899d1,us-west-1:ami-00af2313cbc5bef3d,us-west-2:ami-08ee52d81b4d3c733",
+      "packer_run_uuid": "b42765cd-31cf-e9bf-78d9-78cbf1c62e24"
+    }
+  ],
+  "last_run_uuid": "b42765cd-31cf-e9bf-78d9-78cbf1c62e24"
+}
